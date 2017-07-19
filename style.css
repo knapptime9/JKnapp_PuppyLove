@@ -14,8 +14,10 @@ html {
   background-color: #ff8523;
 }
 
-.main_navigation {
-
+body {
+  background-color: white;
+  margin: 20px 200px 50px 200px;
+  border: 2px solid yellow;
 }
 
 .main_navigation a {
@@ -27,29 +29,39 @@ html {
   color: white;
   border: 2px solid white;
   text-align: center;
-
 }
-{       /* Main Box Containing everything */
-  margin: 1em 6em 2em 6em ;
 
+h2 {
+  font-size:2.5em;
+  color:#1fabe5;
+  font-weight:800;
+}
 
+h3 {
+  font-size:1.5em;
+  color:#1fabe5;
+  font-weight:600;
+}
 
+#page_content ul{
+    font-weight:600;
+  }
 
+table {
+  border: 1px solid blue;
+}
+thead{
+  background-color: blue;
+  color: white;
+  height:10px;
+}
+tbody {
+  border: 1px solid blue;
+}
+td {
+  border: 1px solid blue;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-}       /*Close Bracket for Main Box*/
 
 
 
